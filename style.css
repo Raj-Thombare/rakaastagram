@@ -11,9 +11,16 @@ body {
 header {
     display: flex;
     align-items: center;
-    background: linear-gradient(90deg, #1e3c72,#2a5298);
     padding: 15px 0px;
-    /* border: 1px solid grey; */
+    background-color: lightskyblue;
+}
+
+header #menu {
+    margin-left: 25px;
+}
+
+header #social-links {
+    margin-right: 25px;
 }
 
 header ul {
@@ -72,7 +79,6 @@ aside ul a {
 
 aside {
     flex:0 0 20vw;
-    /* border: 1px solid grey; */
     border-top: none;
     flex-wrap: wrap;
     background-color: aliceblue;
