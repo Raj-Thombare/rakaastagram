@@ -150,6 +150,28 @@ footer {
     display: block;
 }
 
+.player-info-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.player-info-card img {
+    width: 60%;
+}
+
+.player-info-card {
+    border: 1px solid #eee;
+    padding: 10px;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.player-info-img {
+    text-align: center;
+}
+
 @media  screen and (max-width:850px) {
     aside {
         flex:0 0 30vw;
